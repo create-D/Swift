@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         firstView.backgroundColor = UIColor.red
         //添加到根视图
         view.addSubview(firstView)
-        
     }
 
     override func didReceiveMemoryWarning() {
