@@ -6,11 +6,13 @@
 //  Copyright © 2017年 董立权. All rights reserved.
 //
 
+//2.swift中引用框架只需要引入框架的名字
 import UIKit
 
+//1.swift应用程序的入口
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    //3.swift引用OC的框架方法名都一样,只是写法不一样
     var window: UIWindow?
 
 
